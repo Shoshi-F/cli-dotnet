@@ -1,6 +1,4 @@
 ﻿using System.CommandLine;
-#region bundleCommand הישן
-#endregion
 #region הפרויקט
 var bundleCommand = new Command("bundle", "Bundle code files to a single file");
 var createRspCommand = new Command("create-rsp", "Create a response file for the bundle command");
